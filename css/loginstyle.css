@@ -1,0 +1,72 @@
+body{
+    /* background: url('../imgs/s2.jpeg'); */
+    background-color: #ffe1e1;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.login-box{
+    max-width: 700px;
+    float: none;
+    margin: 159px 221px;
+}
+
+.login-left{
+    background: rgba(211, 211, 230, 0.5);
+    padding: 66px 101px;
+}
+.login-right{
+    background: rgba(211, 211, 230, 0.5);
+    padding: 30px;
+}
+.col-md-6 {
+    
+    max-width: 99%;
+    height: 636px;
+    flex: 0 0 50%;
+    max-width: 1000%;
+}
+#it{
+    display: flex;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+.item{
+    list-style: none;
+    font-size: 1.2rem;
+}
+.item a{
+    color: rgb(0, 0, 0);
+    display: block;
+    padding: 13px 42px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+.item a:hover{
+    color: black;
+    background-color: rgb(243, 236, 223);
+    opacity: 0.7;
+}
+
+.item a:active{
+    color: red;
+}
+.form-control{
+    background-color: transparent !important;
+}
+.row{
+    border-radius: 5px;
+}
+footer{
+    height: 200px;
+    width: 100%;
+    padding: 28px 11px;;
+    background: black;
+    color: white;
+    
+}
+.center{
+    text-align: center;
+    float: inline-end;
+    justify-content: center;
+}

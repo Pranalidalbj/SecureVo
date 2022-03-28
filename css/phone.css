@@ -1,0 +1,43 @@
+/* Navigation bar */
+#navbar{
+    flex-direction: column;
+}
+
+/* Home section */
+#home{
+    height: 370px; 
+    padding: 3px 28px;
+}
+
+#home::before{
+    height: 480px; 
+
+}
+
+#home p{
+    font-size: 13px;
+}
+
+
+/* Defination section */
+#defn::before{
+    height: 480px;
+}
+#defn{
+    flex-direction: column;
+    overflow: hidden;
+
+}
+
+/* Client section */
+#clients{
+    overflow: hidden;
+}
+
+/* Contact us */
+
+
+/* Footer */
+
+
+
